@@ -25,3 +25,6 @@ JobPrep-AI-Data/02_extracted_text/**/_v1_no_numbers/
 # Daily pipeline logs
 JobPrep-AI-Data/daily-run.log
 JobPrep-AI-Data/daily-run.out.txt
+
+# Tesseract language models (large, downloadable)
+JobPrep-AI-Data/tessdata/
