@@ -1,0 +1,14 @@
+{
+  "name": "jobprep-ai-data-pipeline",
+  "private": true,
+  "type": "module",
+  "description": "Scanned Bangla PDF -> structured MCQ JSON for the JobPrep AI app",
+  "scripts": {
+    "split": "node split-pdf.mjs",
+    "ocr": "node ocr-gemini.mjs",
+    "build": "node build-dataset.mjs"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1"
+  }
+}

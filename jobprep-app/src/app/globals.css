@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0b0f14;
+  --color-nav: #0f141b;
+  --color-surface: #141a22;
+  --color-surface-2: #1c2430;
+  --color-line: #263041;
+  --color-ink: #e8edf3;
+  --color-ink-2: #cbd5e1;
+  --color-muted: #93a1b5;
+  --color-dim: #6b7a90;
+  --color-accent: #6ea8ff;
+  --color-accent-ink: #0b0f14;
+  --color-info-bg: #1e2a3d;
+  --color-info: #a9c8ff;
+  --color-ok: #7dd3c0;
+  --color-ok-bg: #0f2420;
+  --color-ok-line: #1f6f62;
+  --color-warn: #fdba74;
+  --color-warn-bar: #fb923c;
+  --color-warn-bg: #2b1f14;
+  --color-warn-line: #7c4a1e;
+  --font-sans: var(--font-hind), "Noto Sans Bengali", sans-serif;
+  --font-num: var(--font-grotesk), var(--font-hind), sans-serif;
+}
+
+html,
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-break {
+    break-inside: avoid;
+  }
+}

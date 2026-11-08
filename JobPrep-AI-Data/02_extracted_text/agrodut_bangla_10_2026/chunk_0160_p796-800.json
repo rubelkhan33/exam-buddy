@@ -1,0 +1,1020 @@
+{
+ "book_id": "agrodut_bangla_10_2026",
+ "from": 796,
+ "to": 800,
+ "model": "gemini-3.5-flash-lite",
+ "finishReason": "STOP",
+ "headings": [
+  "বাংলা ব্যাকরণ",
+  "প্রবাদ প্রবচন"
+ ],
+ "questions": [
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "কুচিংলে শিকারে গেলেও সে একা শিকারে যায়।",
+   "a": "Rome was not built in a day",
+   "b": "Fools rush in where angels fear to tread",
+   "c": "At this question, I must part company with you",
+   "d": "The anti-socials are still at large",
+   "answer": "b",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "কয়লার ময়লা যায় না ধুইলে, স্বভাব যায় না মরিলে।",
+   "a": "Practice makes a man perfect",
+   "b": "Rome was not built in a day",
+   "c": "When the danger is gone, God is forgotten",
+   "d": "A burnt child fears the fire",
+   "answer": "c",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "লাঙল যার নাড়া তার, একমাত্র কেই বা কার।",
+   "a": "All that glitters is not gold",
+   "b": "A beggar must not be a chooser",
+   "c": "Breaking a butterfly on the wheel",
+   "d": "It has been raining since morning",
+   "answer": "a",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "চোরে না শুনে ধর্মের কাহিনী, ভূত না শোনে পবিত্র কোরআন।",
+   "a": "Good wine needs no bush",
+   "b": "Run with the hare and hunt with the hounds",
+   "c": "The devil would not listen to the scripture",
+   "d": "The pot calls the kettle black",
+   "answer": "c",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "ঠাকুর ঘরে কে? আমি কলা খাই না।",
+   "a": "While there is life, there is hope",
+   "b": "A guilty conscience needs no accuser",
+   "c": "Oh the times! Oh the manners",
+   "d": "Better an empty house than an ill tenant",
+   "answer": "b",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "মুর্খের কিঞ্চিত কৌশল ভালো নয়।",
+   "a": "Blue are the hills that are far from us",
+   "b": "Two heads are better than one",
+   "c": "Two is company, three is none",
+   "d": "We never know the worth of water till the well is dry",
+   "answer": "b",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "যাঁহার যত দোষ, তাঁর তত প্রবচনে নাই।",
+   "a": "A bad workman quarrels with his tools",
+   "b": "A beggar may sing before a pick-pocket",
+   "c": "Cut off one's nose to spite one's face",
+   "d": "Something is better than nothing",
+   "answer": "a",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "তোমার ইচ্ছা পূর্ণ করুন ও কন্যা নিরালোক উপযুক্ত কর।",
+   "a": "Necessity is the mother of invention",
+   "b": "Diligence is the mother of good luck",
+   "c": "Fortune favours the brave",
+   "d": "As you make your bed, so you must lie on it",
+   "answer": "b",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "যার গর্ভো, যত বর্শে গো. খাঁড়া আমার প্রাণ টানি।",
+   "a": "Barking dogs seldom bite",
+   "b": "As is the evil, so is the remedy",
+   "c": "After sweetmeat comes sour sauce",
+   "d": "So many ways and so many disciplines",
+   "answer": "a",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "রাতের দেখতে বাহির ভিন্ন চলন বাঁকা।",
+   "a": "Faults are thick where love is thin",
+   "b": "Hope springs eternal in the human breast.",
+   "c": "Give him an inch and he'll take an ell",
+   "d": "Give the devil his due",
+   "answer": "a",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "নসিব ভালো যার যার কাটোনা কাঁটা/ তদ্ব্য স্বার্থে ব্রহ্ম।",
+   "a": "All's well that ends well",
+   "b": "All things come to him who waits",
+   "c": "A man is known by the company he keeps",
+   "d": "A stitch in time saves nine",
+   "answer": "a",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 796,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "বাজারের এক তেঁতুল কুড়াচ্ছেন মন কেঁচো।",
+   "a": "Cheap goods are dear in the long run",
+   "b": "Every dog has his day",
+   "c": "God helps those who help themselves",
+   "d": "Patience is bitter, but its fruit is sweet",
+   "answer": "a",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "The leopard can't change its spots",
+   "a": "চোরের দশ দিন সাধুর এক দিন",
+   "b": "কয়লা কয়লা ধুলে ময়লা যায় না",
+   "c": "আপন ভালো তো জগৎ ভালো",
+   "d": "লোভে পাপ পাপে মৃত্যু",
+   "answer": "b",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "Rome was not built in a day",
+   "a": "রতনে রতন চেনে",
+   "b": "চরে না ছাগলে মোষের একার",
+   "c": "দশের লাঠি একের বোঝা",
+   "d": "সদুপদেশে ঘর গড়া যায় না",
+   "answer": "d",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'It is a long story' -এর সঠিক অনুবাদ কোনটি?",
+   "a": "সংক্ষিপ্ত কথা না বড়",
+   "b": "সাগর কখনো শুকায় না",
+   "c": "যাহা রটে তাহার কিছু অংশ সত্য",
+   "d": "এহা এক বড়ই দীর্ঘ গল্প",
+   "answer": "d",
+   "sources": [
+    "মন্ত্রণালয়ের অধীনে সহকারী পরিচালক: ২৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'To do or die' বাক্যের বাংলা অনুবাদ কোনটি?",
+   "a": "বা করে মর অথবা মর",
+   "b": "মরণকে ভয় কর না",
+   "c": "যাহা কিছু কপালে থাকে",
+   "d": "মর বা বাঁচো",
+   "answer": "a",
+   "sources": [
+    "৬ষ্ঠ থেকে ৯ সহায়ক শিক্ষক পরীক্ষা: ২০"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Look before you leap’ বাক্যের সঠিক বাংলা অনুবাদ কোনটি?",
+   "a": "নিত্য নতুন ভালো কাজ কর",
+   "b": "সব ভালো যার শেষ ভালো",
+   "c": "ভাবিয়া করিও কাজ, করিয়া ভাবিও না",
+   "d": "বিপদ একা আসে না",
+   "answer": "c",
+   "sources": [
+    "২৭তম বিসিএস"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'Birds of the same feather flock together.'-এর সঠিক অনুবাদ কোনটি?",
+   "a": "চোরে চোরে মাসতুতো ভাই",
+   "b": "চোর পালালে বুদ্ধি বাড়ে",
+   "c": "চরে খাক কুকুরে কুঁড়ে ঘর",
+   "d": "চোরের দশ দিন সাধুর এক দিন",
+   "answer": "a",
+   "sources": [
+    "সহকারী থানা শিক্ষা অফিসার: ২২"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'They were at daggers drawn' এর সঠিক বাংলা অনুবাদ কোনটি? [মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর পরীক্ষার: ২৫]",
+   "a": "ডাইনিরা দূরবস্থা",
+   "b": "ডাইনিরা গৃহযুদ্ধ",
+   "c": "দাঁতে দাঁত চেপে লড়া",
+   "d": "দা কুমড়া সম্পর্ক",
+   "answer": "d",
+   "sources": [
+    "মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর পরীক্ষার: ২৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'The ghari is possessed' এর বাংলা অনুবাদ কোনটি? [মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর পরীক্ষা: ২৫]",
+   "a": "ঘড়িতে ভূতের শাসন নাই",
+   "b": "ঘড়িতে খারাপ নজর নাই",
+   "c": "ঘড়ির দিন সুদিন নাই",
+   "d": "ঘড়িটি ভূতগ্রস্ত",
+   "answer": "d",
+   "sources": [
+    "মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর পরীক্ষা: ২৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'Fair weather friends' এই প্রবাদটির বাংলা অর্থ কী?",
+   "a": "যাদের কোন দুঃখ নেই",
+   "b": "তোষামোদ করা বন্ধু",
+   "c": "সুসময়ের কোকিল",
+   "d": "ভালো বন্ধু",
+   "answer": "c",
+   "sources": [
+    "মন্ত্রণালয়/অধিদপ্তরের সহকারী পরিচালক বা পাট গবেষণা ইনস্টিটিউট পরীক্ষা: ২৬"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘There is no rose but thorn’- এর বাংলা অনুবাদ-",
+   "a": "কাঁটা ছাড়া গোলাপ নাই",
+   "b": "গোলাপ ফুটলে কাঁটা থাকে",
+   "c": "কাঁটা পেলেও গোলাপ জোটে",
+   "d": "সুন্দর ফুল দিয়ে যার শুরু",
+   "answer": "a",
+   "sources": [
+    "নিবন্ধন অধিদপ্তর পরীক্ষা: ৪০"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 797,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'The cloth is colorfast' এর বাংলা অনুবাদ কী? [আইন মন্ত্রণালয়ের অধীন সাব-রেজিস্ট্রার পদ: ২৫]",
+   "a": "কাপড়টি খুব সুন্দর",
+   "b": "কাপড়টির রঙ ওঠে না",
+   "c": "কাপড়টি সহজে ধোয়া যায়",
+   "d": "কাপড়টির রঙ দীর্ঘস্থায়ী",
+   "answer": "b",
+   "sources": [
+    "আইন মন্ত্রণালয়ের অধীন সাব-রেজিস্ট্রার পদ: ২৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'Oil your own machine' এর সঠিক অর্থ কী? [পরিবেশ বন ও জলবায়ু পরিবর্তন মন্ত্রণালয়ের সহকারী পরিচালক: ১৭]",
+   "a": "যন্ত্রের জন্য তেল কেনা",
+   "b": "নিজ চরকায় তেল দেওয়া",
+   "c": "যন্ত্রে তেল ব্যবহার কর",
+   "d": "মেশিনে তেল দেওয়া",
+   "answer": "b",
+   "sources": [
+    "পরিবেশ বন ও জলবায়ু পরিবর্তন মন্ত্রণালয়ের সহকারী পরিচালক: ১৭"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Diamond cuts diamond’ প্রবাদের সঠিক বাংলা রূপ কোনটি?",
+   "a": "লোভেই পাপ পাপেই মৃত্যু",
+   "b": "চোরে চোরে মাসতুতো ভাই",
+   "c": "রতনে রতন চেনে",
+   "d": "মানিক মানিক চেনে",
+   "answer": "c",
+   "sources": [
+    "সমাজসেবা অধিদপ্তর পরীক্ষা: ২১"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Look before you leap’ বাক্যাংশটির সঠিক বাংলা প্রবাদ কোনটি?",
+   "a": "প্রথমে ভাবিও পরে করিও কাজ",
+   "b": "সাবধানে চলো না",
+   "c": "যেতে নাহি দিব",
+   "d": "ঝড়ো জলের আগে গাছ লড়ে",
+   "answer": "a",
+   "sources": [
+    "১৩তম শিক্ষক নিবন্ধন পরীক্ষা: ১৬"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Early rising is beneficial to health’ এর সঠিক অনুবাদ কোনটি? [সমাজ সেবা অধিদপ্তর পরীক্ষা: ১৫]",
+   "a": "সকাল সকাল ওঠা স্বাস্থ্যের জন্য ভালো",
+   "b": "সবসময় ভালো ছাত্র হতে হবে",
+   "c": "ভালো সকাল শুরু",
+   "d": "প্রতিদিন সকালে হাঁটুন",
+   "answer": "a",
+   "sources": [
+    "সমাজ সেবা অধিদপ্তর পরীক্ষা: ১৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Beggars can't be choosers’-এর বাক্যের অর্থ- [মৎস্য ও প্রাণিসম্পদ মন্ত্রণালয় সহকারী পরিচালক: ১৭]",
+   "a": "অভাবে স্বভাব নষ্ট",
+   "b": "সকলে যা চায় ভালো নয়",
+   "c": "ভিখারির আবার পছন্দ কী",
+   "d": "চোরের দশ দিন সাধুর এক দিন",
+   "answer": "c",
+   "sources": [
+    "মৎস্য ও প্রাণিসম্পদ মন্ত্রণালয় সহকারী পরিচালক: ১৭"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Two heads are better than one’ -এর বাক্যটির ভাবার্থ কী? [সমবায় অধিদপ্তর পরীক্ষা: ২২]",
+   "a": "একাধিক মাথা ভালো",
+   "b": "একাধিক মাথা এক মাথার চেয়ে ভালো",
+   "c": "একাধিক মাথা ভালো না",
+   "d": "একাধিক মাথা এক মাথার চেয়ে মন্দ",
+   "answer": "b",
+   "sources": [
+    "সমবায় অধিদপ্তর পরীক্ষা: ২২"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "A bad workman quarrels with his tools প্রবাদটির সঠিক বাংলা অনুবাদ কোনটি? [তথ্য অধিদপ্তর সহকারী তথ্য অফিসার: ১৪]",
+   "a": "অকর্মের ঢেকি স্বর্গে গেলেও ধান ভানে",
+   "b": "নাচতে না জানলে উঠান বাঁকা",
+   "c": "চোর না শুনে ধর্মের কাহিনী",
+   "d": "চোর পালালে বুদ্ধি বাড়ে",
+   "answer": "b",
+   "sources": [
+    "তথ্য অধিদপ্তর সহকারী তথ্য অফিসার: ১৪"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘One swallow does not make a summer’ পূর্ব-প্রবাদের উপযুক্ত কালিমাৎস: ২২",
+   "a": "এক শালিক না বাকা না",
+   "b": "এক মাছে সব ভালো না",
+   "c": "চোর না শুনে ধর্মের কথা",
+   "d": "সব ভালো যার শেষ ভালো",
+   "answer": "a",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Nothing succeeds like success’ এর যথোপযুক্ত বাংলা প্রবাদ-",
+   "a": "সাফল্যের মত সাফল্য আর নেই",
+   "b": "যেমন কর্ম তেমন ফল",
+   "c": "আসলে কান টানলে মাথা আসে",
+   "d": "বজ্র আঁটুনি ফসকা গেরো",
+   "answer": "a",
+   "sources": [
+    "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর পরিদর্শক: ১৪"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Desperate disease requires desperate remedies’ -এর বাংলা প্রবাদ কোনটি? [উন্নয়ন বোর্ড সহকারী প্রকৌশলী: ১৪]",
+   "a": "যেই লাউ সেই কদু",
+   "b": "যেমন কুকুর তেমন মুগুর",
+   "c": "চোর না শুনে ধর্মের কাহিনী",
+   "d": "জলের মাছ জলে ফেলে",
+   "answer": "b",
+   "sources": [
+    "উন্নয়ন বোর্ড সহকারী প্রকৌশলী: ১৪"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘Call in a doctor’ এর সঠিক বাংলা নির্দেশিকা কোনটি? [তথ্যপ্রযুক্তি বিভাগ নিয়োগ পরীক্ষা: ১৪]",
+   "a": "ডাক্তার ডাক",
+   "b": "ডাক্তারকে ডাক",
+   "c": "ডাক্তারের কাছে যাও",
+   "d": "ডাক্তার ডাকো",
+   "answer": "d",
+   "sources": [
+    "তথ্যপ্রযুক্তি বিভাগ নিয়োগ পরীক্ষা: ১৪"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 798,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "‘You reap what you sow’ -এর সঠিক বাংলা অনুবাদ কোনটি? [মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক: ০৬]",
+   "a": "যেমন কর্ম তেমন ফল",
+   "b": "যে যেমন কর্ম করে",
+   "c": "যেমন বুনো ওল তেমনি বাঘা তেঁতুল",
+   "d": "যেখানে বাঘের ভয় সেখানে রাত হয়",
+   "answer": "a",
+   "sources": [
+    "মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক: ০৬"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "The baby is always smiling. যখন বাক্যের অনুবাদ",
+   "a": "শিশু সবসময় হাসে",
+   "b": "শিশুটি সবসময় হাসছে",
+   "c": "শিশু সব সময় হাসতে ভালোবাসে",
+   "d": "শিশুটি সবসময় হাসছে কেন",
+   "answer": "b",
+   "sources": [
+    "৪১তম বিসিএস"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "Culture is constantly evolving—এর সঠিক বাংলা অনুবাদ করুন:",
+   "a": "সংস্কৃতি সবসময় বিবর্তনশীল",
+   "b": "সংস্কৃতি চলমান প্রক্রিয়া",
+   "c": "সংস্কৃতির পরিবর্তন ঘটে",
+   "d": "সংস্কৃতি পরিবর্তনশীল",
+   "answer": "a",
+   "sources": [
+    "৪০তম বিসিএস"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "A beggar must not be a chooser -এর বাক্যের যথার্থ প্রবাদ",
+   "a": "অভাবে স্বভাব নষ্ট",
+   "b": "ভিখারির আবার পছন্দ কী",
+   "c": "অভাবের সময় জ্ঞান থাকে না",
+   "d": "সব ভালো যার শেষ ভালো",
+   "answer": "b",
+   "sources": [
+    "০৫তম শিক্ষক নিবন্ধন পরীক্ষা: ০৮"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "She burst into tears বাকটির যথার্থ যথাযথ বাংলাবাদ-",
+   "a": "সে কান্নায় ভেঙে পড়ল",
+   "b": "সে কান্নাকাটি শুরু করল",
+   "c": "সে কেঁদে দিল",
+   "d": "তার চোখে জল এল",
+   "answer": "a",
+   "sources": [
+    "৩৭তম বিসিএস"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "Self-Preservation is the first law of nature",
+   "a": "আত্মরক্ষা মূলধর্ম",
+   "b": "জীবন রক্ষা করা বড় ধর্ম",
+   "c": "আত্মরক্ষা প্রকৃতি প্রথম নিয়ম",
+   "d": "সবাই নিজের ভালো বোঝে",
+   "answer": "c",
+   "sources": [
+    "১৬তম শিক্ষক নিবন্ধন পরীক্ষা: ১৯"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "Which one of the following is correct translation of 'Let by gones be by gones'?",
+   "a": "অতীত ভুলে যাও",
+   "b": "অতীতকে ভুলে যাও",
+   "c": "যা ঘটে গেছে তা ভুলে যাও",
+   "d": "গত হয়েছে যা তা ভুলে যাও",
+   "answer": "d",
+   "sources": [
+    "১৫তম শিক্ষক নিবন্ধন পরীক্ষা: ১৮"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "The devil wouldn't listen to the scripture.",
+   "a": "শয়তান শোনেন না ধর্মের কথা",
+   "b": "চোরের দশ দিন সাধুর এক দিন",
+   "c": "চোরে না শুনে ধর্মের কাহিনী",
+   "d": "অসৎ লোক সহজে সৎ হয় না",
+   "answer": "c",
+   "sources": [
+    "মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর সহকারী পরীক্ষা: ১৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "Run with the hare and hunt with the hounds.",
+   "a": "সাপ হয়ে কাটা তোলা আর ওঝা হয়ে ঝাড়া",
+   "b": "উভয়সংকট অবস্থা",
+   "c": "এক হাতে তালি বাজে না",
+   "d": "None of these",
+   "answer": "a",
+   "sources": [],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "Birds of a feather flock together.",
+   "a": "চোরে চোরে মাসতুতো ভাই",
+   "b": "আপন ভালো তো জগৎ ভালো",
+   "c": "লোভে পাপ পাপে মৃত্যু",
+   "d": "দশের লাঠি একের বোঝা",
+   "answer": "a",
+   "sources": [
+    "১৫তম শিক্ষক নিবন্ধন পরীক্ষা: ১৮"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "Brevity is the soul of wit' মননশীলতা যথোপযুক্ত",
+   "a": "আমি শুনি কাহাকে হারায়ে নিহার্দে মোরে না",
+   "b": "আসিও এলে কাছে আসাতে মিটে না বা",
+   "c": "বানি আসিও গাহিয়া শোভা ও কান্দে না",
+   "d": "বাণী বাজি গো কাঠে কাটে না",
+   "answer": "b",
+   "sources": [
+    "ডাক বিভাগের পরিদর্শক: ১৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "The rose is a fragrant flower এর সঠিক অনুবাদ",
+   "a": "গোলাপ সুন্দর ফুল কারণ",
+   "b": "সুন্দর গোলাপ সুন্দর গন্ধ",
+   "c": "গোলাপ একটি সুগন্ধ ফুল",
+   "d": "গোলাপ গন্ধময় ফুল",
+   "answer": "c",
+   "sources": [
+    "কম্পিউটার সহকারী কাম কম্পিউটার: ১৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "A golden key can open any door বাক্যটির যথোপযুক্ত অর্থ",
+   "a": "সোনা দিয়া কোন কাজ হয় না",
+   "b": "সব সমস্যার মূল চাবিকাঠি সোনা",
+   "c": "রিশ্বত দিয়ে কাজ হাসিল করা",
+   "d": "টাকায় সব কিছু হয়",
+   "answer": "d",
+   "sources": [
+    "ডাক বিভাগ পিয়ন পদে নিয়োগ",
+    ", ১৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "He has gone to dogs বাকটির সঠিক বাংলায় অনুবাদ করো:",
+   "a": "সে কুকুরের মতো মরেছে",
+   "b": "সে কুকুরের মত লাথি খেয়েছে",
+   "c": "সে উচ্ছন্নে গেছে",
+   "d": "সে লাথি খেয়ে মরেছে",
+   "answer": "c",
+   "sources": [
+    "বাংলাদেশ রেলওয়ে সহকারী স্টেশন মাস্টার",
+    ", ২২"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "Barking dogs seldom bite' এর সঠিক বাংলা প্রবাদ:",
+   "a": "যত গর্জে তত বর্ষে না",
+   "b": "বড় মুখ ছোট কথা",
+   "c": "ঘর পোড়ো গরু সিঁদুরে মেঘ দেখলে ডরায়",
+   "d": "চোরের দশ দিন সাধুর এক দিন",
+   "answer": "a",
+   "sources": [
+    "মাধ্যমিক বিদ্যালয় সহকারী"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 799,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "It had been raining since morning",
+   "a": "সকাল থেকে বৃষ্টি হচ্ছে",
+   "b": "সকাল হইতে বৃষ্টি হচ্ছিল",
+   "c": "সকাল হইতে বৃষ্টি হইতেছে",
+   "d": "সকাল হইতে বৃষ্টি হইয়াছিল",
+   "answer": "b",
+   "sources": [
+    "মাধ্যমিক শিক্ষক নিবন্ধন: ১৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "I cannot spare an instant- বাক্যটির সঠিক বাংলা",
+   "a": "আমার এক মুহূর্ত সময় নাই",
+   "b": "আমার এক মুহূর্তের সময় নেই",
+   "c": "আমার এক মুহূর্তও সময় নেই",
+   "d": "আমার মোটেও সময় নেই",
+   "answer": "c",
+   "sources": [
+    "২২তম বিসিএস"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'Put out the lamp'-এর সঠিক বাংলাঅনুবাদ কোনটি?",
+   "a": "বাতিটি জ্বালাও",
+   "b": "বাতিটি নিভিয়ে ফেল",
+   "c": "বাতিটি জ্বালিয়ে দাও",
+   "d": "বাতিটি তুলে রাখ",
+   "answer": "b",
+   "sources": [
+    "বাংলাদেশ রেলওয়ে উপ-সহকারী প্রকৌশলী: ১৯"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'Misfortune never comes alone' এর সঠিক অনুবাদ কোনটি?",
+   "a": "বিপদ একা আসে না",
+   "b": "বিপদে বন্ধু চেনা যায়",
+   "c": "দুঃখ চিরকাল থাকে না",
+   "d": "শূন্য কলসি বাজে বেশি",
+   "answer": "a",
+   "sources": [
+    "শ্রম ও কর্মসংস্থান মন্ত্রণালয় (কলকারখানা): ২১"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'The heel of Achilles' কথাটির অর্থ কী?",
+   "a": "এক মাত্র মৃত্যু নাই",
+   "b": "দুর্বল পয়েন্ট বা দিক",
+   "c": "দুর্বল জায়গা",
+   "d": "মৃত ব্যক্তির শেষ চিহ্ন",
+   "answer": "c",
+   "sources": [
+    "প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা: ২১"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'Every man is for himself'- এর সঠিক বাংলা প্রবাদ কী?",
+   "a": "সর্বত্র প্রবচন",
+   "b": "আপনার ভালো তো জগৎ ভালো",
+   "c": "নিজের ভালো পাগলও বোঝে",
+   "d": "চাচা আপন প্রাণ বাঁচা",
+   "answer": "d",
+   "sources": [
+    "খাদ্য অধিদপ্তর সহকারী খাদ্য পরিদর্শক: ১৯"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'Like priest, like pupil' এর সঠিক বাংলা প্রবাদ কোনটি?",
+   "a": "যেমন গুরু তেমন শিষ্য",
+   "b": "অকর্তৃক আত্মা পতনের ঘরে",
+   "c": "যাহা রটে তাহার কিছু অংশ সত্য",
+   "d": "প্রকৃতি বড়ই নির্মম",
+   "answer": "a",
+   "sources": [
+    "জেলা পরিষদ হিসাব সহকারী: ১৪"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'Charity begins at home'- উক্তির অর্থ কী?",
+   "a": "দয়া বড় কঠিন স্বভাব",
+   "b": "নবাবের উপাদেয় মানুষের খাদ্য",
+   "c": "আগে ঘর তবে পর",
+   "d": "আগে নিজের ভালো বোঝো",
+   "answer": "c",
+   "sources": [
+    "ডাক বিভাগ পরিদর্শক পদে নিয়োগ: ১৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'It takes two to make a quarrel.' এর বাক্যটির বাংলা অনুবাদ কোনটি?",
+   "a": "তালি দুই হাতে বাজে",
+   "b": "ঝগড়ার মূল কারণ",
+   "c": "ঝগড়ার জন্য দুজন প্রয়োজন",
+   "d": "দুজন ছাড়া ঝগড়া হয় না",
+   "answer": "a",
+   "sources": [
+    "সমাজসেবা অধিদপ্তর সমাজকর্মী: ১৬"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'No fire can burn without air'- এর বাংলা প্রবাদ ঠিক কোনটি?",
+   "a": "বিনানাগে বাতাস না হলে কিসে না",
+   "b": "বাতাস ছাড়া আগুন জ্বলে না",
+   "c": "বাতাসে আগুন নিভে না",
+   "d": "বাতাস ছাড়া আগুন নিভে না",
+   "answer": "b",
+   "sources": [
+    "কম্পিউটার অপারেটর (কাউন্সিলর): ২১-২২"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "'A cat in gloves catches no mice' এর সঠিক বাংলা প্রবাদ-",
+   "a": "বিড়াল ছাড়ে না ইঁদুর ধরে না",
+   "b": "বিড়াল ছাড়া ইঁদুর মিলে না",
+   "c": "বিড়াল ছাড়ে আপন নিজে না",
+   "d": "আলসে কুকুরে শিকার পায় না",
+   "answer": "a",
+   "sources": [
+    "বাণিজ্য মন্ত্রণালয় (প্রবর্তক): ২১-২২"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 800,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "প্রবাদ প্রবচন",
+   "question": "নিচের কোনান্টি 'Like cures like' এর যথার্থ সমতুলনাম?",
+   "a": "বিষে বিষ ক্ষয়",
+   "b": "বিনা দোষে বলির পাঁঠা",
+   "c": "বিষের কাঁটা কাঁটা দিয়ে তোলো",
+   "d": "যাহা রটে তার কিয়দংশ সত্য",
+   "answer": "a",
+   "sources": [
+    "বাণিজ্য মন্ত্রণালয় (প্রবায়ক): ২০-২১"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  }
+ ]
+}

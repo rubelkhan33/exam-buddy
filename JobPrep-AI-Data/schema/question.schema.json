@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "jobprep-ai/question.schema.json",
+  "title": "JobPrep AI - MCQ Question",
+  "description": "One MCQ extracted from a source book. One JSON object per line in 03_structured_json/<book_id>.jsonl",
+  "type": "object",
+  "required": ["id", "book_id", "subject", "topic", "question", "options", "answer", "sources", "priority"],
+  "properties": {
+    "id": { "type": "string", "description": "Unique id, e.g. agrodut-bangla-10-0001" },
+    "book_id": { "type": "string", "description": "e.g. agrodut_bangla_10_2026" },
+    "page": { "type": "integer", "description": "PDF page number the question was taken from" },
+
+    "subject": { "type": "string", "description": "e.g. বাংলা" },
+    "chapter": { "type": "string", "description": "e.g. বাংলা ব্যাকরণ" },
+    "topic": { "type": "string", "description": "Selectable exam topic, e.g. সন্ধি" },
+    "subtopic": { "type": ["string", "null"], "description": "e.g. স্বরসন্ধি" },
+
+    "question": { "type": "string" },
+    "options": {
+      "type": "object",
+      "required": ["ক", "খ", "গ", "ঘ"],
+      "properties": {
+        "ক": { "type": "string" }, "খ": { "type": "string" },
+        "গ": { "type": "string" }, "ঘ": { "type": "string" }
+      }
+    },
+    "answer": { "type": "string", "enum": ["ক", "খ", "গ", "ঘ"] },
+    "explanation": { "type": ["string", "null"], "description": "Explanation exactly as given in the book" },
+
+    "sources": {
+      "type": "array",
+      "description": "Every exam where this question appeared, as printed in the book e.g. [৪৫তম বিসিএস]",
+      "items": {
+        "type": "object",
+        "required": ["exam_type", "exam_name"],
+        "properties": {
+          "exam_type": { "type": "string", "enum": ["BCS", "PSC", "BANK", "OTHER"] },
+          "exam_name": { "type": "string", "description": "e.g. ৪৫তম বিসিএস, সোনালী ব্যাংক অফিসার" },
+          "year": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "bcs_count": { "type": "integer", "description": "How many BCS exams this question appeared in (derived)" },
+    "priority": {
+      "type": "integer",
+      "enum": [1, 2, 3, 4, 5],
+      "description": "1 = BCS repeated 2+ times (sorted by bcs_count desc), 2 = BCS once, 3 = PSC, 4 = Bank, 5 = all other exams"
+    },
+    "negative_mark": {
+      "type": "number",
+      "enum": [0.5, 0.25],
+      "description": "0.5 if highest-priority source is BCS or Bank, else 0.25"
+    },
+
+    "ocr_confidence": { "type": ["number", "null"], "description": "0-1, from the OCR step" },
+    "review_status": { "type": "string", "enum": ["auto", "needs_review", "verified"], "default": "auto" }
+  }
+}

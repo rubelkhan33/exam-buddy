@@ -1,0 +1,950 @@
+{
+ "book_id": "agrodut_bangla_10_2026",
+ "from": 801,
+ "to": 805,
+ "model": "gemini-3.5-flash-lite",
+ "finishReason": "STOP",
+ "headings": [
+  "বাংলা ব্যাকরণ",
+  "অনুবাদ"
+ ],
+ "questions": [
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Pros and cons.' এর বাংলায়ান হলো- / বাংলায় অনুবাদ করুন (সামাজিক বিজ্ঞান): [৪০-২১]",
+   "a": "সুবিধা-অসুবিধা",
+   "b": "লাভ-লোকসান",
+   "c": "আগে-পিছে",
+   "d": "নাক-সিঁটকানো",
+   "answer": "a",
+   "sources": [
+    "৪০-২১"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'One man's meat is another man's poison.' এর সঠিক অর্থ- [খাদ্য ও পুষ্টি কৃঃ - ১৯]",
+   "a": "কারে কার ভালো লাগে কারে কার ভালো না",
+   "b": "কারো পৌষ মাস কারো সর্বনাশ",
+   "c": "কারো সর্বনাশ কারো পৌষ মাস",
+   "d": "একাদশে বৃহস্পতি",
+   "answer": "b",
+   "sources": [
+    "খাদ্য ও পুষ্টি কৃ - ১৯"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'There are lees to every wine.' বাংলাটির অর্থ- [ফি (এ)-২০]",
+   "a": "কাঁদলেই জান বাঁচে",
+   "b": "কাঁদলেও কনক কনক আঁচে",
+   "c": "চোখ না ফোটাতে ধর্মেও কারিপতি",
+   "d": "ইছা করাই খানা",
+   "answer": "b",
+   "sources": [
+    "ফি (এ)-২০"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'All cover, all lost.' বাংলাটির অর্থ- [বি - ১৫-২০]",
+   "a": "অধিকন্তু ন দোষায়",
+   "b": "অতীতে রোদন নাই",
+   "c": "অধিক লোভে তাতি নষ্ট",
+   "d": "আগর তলায় দাই",
+   "answer": "c",
+   "sources": [
+    "বি - ১৫-২০"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'I wouldn't mind a cup of tea.' সঠিক ইংরেজি অনুবাদ কোনটি বল? [ইসি (D): ১৪-২০]",
+   "a": "এক কাপ চা পেলে আমার কিছুটা মনে করা পদুহিত",
+   "b": "এক কাপ চা পেলে আমার কিছুটা মনে করা আনন্দিত",
+   "c": "এক কাপ চা পেলে আমার একটু মনে করা উচিত নয়",
+   "d": "এক কাপ চা পেলে আমার একটু মনে করা উচিত নয় (পান করব)? [ইসি (M): ১৫-২০]",
+   "answer": "d",
+   "sources": [
+    "ইসি (D): ১৪-২০",
+    "ইসি (M): ১৫-২০"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'After meat comes mustered.' এর সঠিক অর্থ- [মা (র) - ১৫-২০]",
+   "a": "মাঠের কেটে পুঁতেতে নাচার ব্যাকরণে",
+   "b": "মাঠের কেটে পুঁতেতে নাচার বাগধারা",
+   "c": "মাঠেই নামলাম, কাটায় (পেঁপে গ্রাম",
+   "d": "কাউ কাড়ের সাথে খাতায় না",
+   "answer": "c",
+   "sources": [
+    "মা (র) - ১৫-২০"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'To count one's chickens before they hatch.' এর সঠিক বাংলা অনুবাদ কোনটি? [অধি (অ): ১৫-২০]",
+   "a": "মুন আদতে গাছ কুয়ায়ে",
+   "b": "ঘটে গর্ত করে যত কাঁচ না",
+   "c": "মুখে আগে ভাগে ফুটালে খানা",
+   "d": "মুন আদতে গাছ কুয়ায়ে",
+   "answer": "b",
+   "sources": [
+    "অধি (অ): ১৫-২০"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'A host in himself' বাংলাটির অর্থ- [সাবি (F): ৪১-২০]",
+   "a": "চাচা আপন প্রাণ বাঁচা",
+   "b": "এক হাতে তালি বাজে না",
+   "c": "চাচা আপন প্রাণ বাঁচা রে",
+   "d": "এক কাপ চা ছেনলে জখন এপোলো না",
+   "answer": "b",
+   "sources": [
+    "সাবি (F): ৪১-২০"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Easier said than done.' টেক বাক্যটির অনুবাদ কোনটি? ৪২-২০]",
+   "a": "বলা সহজ করা কঠিন।",
+   "b": "বলা সহজ কিন্তু করা কঠিন।",
+   "c": "নাচে না জানলে উঠোন বাঁকা।",
+   "d": "ওলায় কলা গাছ রোপণ।",
+   "answer": "a",
+   "sources": [
+    "৪২-২০"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Like priest, like pupil.' এর বাংলা অনুবাদ- [জাহাঙ্গীরনগর (E) তারিখ: ১৪-২০]",
+   "a": "যিনি চার্চের প্রভু তিনি ধর্মোপদেশ দেন",
+   "b": "যিনি রোদেন নাই তাকে বা যা তা কি",
+   "c": "যিনি রোদন নাই বালাস বা যাহা তা কি",
+   "d": "মুর্সাদ-চাবি-১৫-২০",
+   "answer": "a",
+   "sources": [
+    "জাহাঙ্গীরনগর (E) তারিখ: ১৪-২০",
+    "মুর্সাদ-চাবি-১৫-২০"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "You shall suffer in the long run. এর বাংলায়ান- [৪-১৯]",
+   "a": "দীর্ঘকাল ভোগ করতে হবে",
+   "b": "লম্বা রশি (কেননা লম্বা রশি (যেমন লম্বা রশি (যেমন গাড়ি)",
+   "c": "লম্বা কর্ম (কেননা কর্ম লম্বা রশি (যেমন গাছেও গাড়ি)",
+   "d": "লম্বা কর্ম (যেমন কর্ম তেমন ফল)",
+   "answer": "a",
+   "sources": [
+    "৪-১৯"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'He has no business to say that.' বাক্যটির যথার্থ অনুবাদ- [আইনকানুন (E): ৩০-১৪]",
+   "a": "বলাবলাবলা- বাংলাদেশ (E) ৩০-১৪",
+   "b": "বরদায়ে তোমাছিয়ে যায় সেও তেড়ে সে",
+   "c": "নিৰ্বাচন ভূমি কুড়ানো।",
+   "d": "নির্বাসনেও সুষ্ঠু নির্দেশ পালন।",
+   "answer": "b",
+   "sources": [
+    "আইনকানুন (E): ৩০-১৪"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Ill go ill spent.' অর্থ কী? [বি: ১৯-২০]",
+   "a": "যে যেমন বা কর্ম তেমন ফল",
+   "b": "যেমন কুকুর তেমন মুগুর",
+   "c": "যেমন বুড়ো তেন জামিন বাছা (যেমন রদ",
+   "d": "(যেমন কর্ম তেমন ফল (যেমন রদ",
+   "answer": "d",
+   "sources": [
+    "বি: ১৯-২০"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Black will take no other hue' বাক্যটির অর্থ- [C): ৩০-১৪]",
+   "a": "কয়লার কুষ্ঠ নির্পাতে যায়",
+   "b": "শর্তর দিন ফুরিয়ে",
+   "c": "কাচের কুষ্ঠ লিপ্পাটে যায়",
+   "d": "কয়লার কালো ময়লা ধোয়া না",
+   "answer": "d",
+   "sources": [
+    "C): ৩০-১৪"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Care killed the cat.' বাক্যটির যথার্থ অনুবাদ কোনটি? [বি (B): ৪-২০]",
+   "a": "অতি দর্পে হত লঙ্কা",
+   "b": "অথি নায়েই রুদ নকঃ",
+   "c": "অধি নায়েই রুদ মাকঃ",
+   "d": "অধি নায়েই রুদ মাকঃ (সুধাংশু বাবু)",
+   "answer": "a",
+   "sources": [
+    "বি (B): ৪-২০"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 801,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Once bitten, twice shy.' এর অর্থ কোনটি? [ন (বি): ১৫-২০]",
+   "a": "অতি লোভে তাঁতি নষ্ট",
+   "b": "অতি লোভে তাঁতি নষ্ট নাই",
+   "c": "অথি লোভে তাঁতি নষ্ট নাই",
+   "d": "(ঘ) সতর্কীর গতিকে নয়",
+   "answer": "d",
+   "sources": [
+    "ন (বি): ১৫-২০"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'The workers have called off their strike.' এর বাংলায়ান- [ইবি (গ): ১৭-২০]",
+   "a": "শ্রমিকরা ধর্মঘট প্রত্যাহার করে নিয়েছে",
+   "b": "শ্রমিকরা ধর্মঘট ভাঙতে ধর্মঘট ভেঙেছে",
+   "c": "শ্রমিকরা ধর্মঘট ভেঙেছে ধর্মঘট ভেঙেছে",
+   "d": "শ্রমিকরা ধর্মঘট সম্মান জানাতে ধর্মঘট",
+   "answer": "a",
+   "sources": [
+    "ইবি (গ): ১৭-২০"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'The man is off his head.' বাক্যটির যথারীতি অনুবাদ- [বি (B): ১৫-২০]",
+   "a": "লোকটির মাথাটা নষ্ট হয়ে গেছে",
+   "b": "লোকটির মাথায় কিছু নাই",
+   "c": "লোকটির মাথাটা বাধানো হয়েছে",
+   "d": "লোকটির মাথায় নেই মাথাটা",
+   "answer": "a",
+   "sources": [
+    "বি (B): ১৫-২০"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'I can't count on you.' এর সঠিক অনুবাদ- [বহ (গ): ০৯-০৭]",
+   "a": "আমি তোমাকে গোণাতে পারছি না",
+   "b": "আমি তোমাকে গোণাতে পারছি না",
+   "c": "আমি আমার গোণার গাদায় রাখছি না",
+   "d": "আমি তোমাকে গোণাতে পারছি না",
+   "answer": "b",
+   "sources": [
+    "বহ (গ): ০৯-০৭"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'He is very hard up now.' বাক্যটির যথারীতি অনুবাদ- [ইবি (ক): ২২-১৫]",
+   "a": "লোকটির স্বাস্থ্য খুব খারাপ",
+   "b": "লোকটি খুব খারাপ অবস্থায় আছে",
+   "c": "লোকটির স্বাস্থ্য খুব খারাপ নেই",
+   "d": "লোকটি খুব খারাপ অবস্থায় আছে না",
+   "answer": "b",
+   "sources": [
+    "ইবি (ক): ২২-১৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'He is a man of world.' এর অনুবাদ- [বি (র) - ০৪-০৫]",
+   "a": "তিনি দুনিয়ার লোক",
+   "b": "তিনি বিশ্বময় লোক",
+   "c": "তিনি বিশ্বময়তা লোক",
+   "d": "তিনি বিশ্বময়তার লোক",
+   "answer": "a",
+   "sources": [
+    "বি (র) - ০৪-০৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'It is raining cats and dogs.' এর সঠিক বাংলা বর্ণনা- [সি/ম: ০৩-০৪]",
+   "a": "কুকুর ইঁদুর বিড়ালের মধ্য বৃষ্টি হচ্ছে",
+   "b": "মুষলধারে বৃষ্টি হচ্ছে",
+   "c": "কুত্তুর এধর বিড়ালের মত বৃষ্টি হচ্ছে",
+   "d": "কুত্তুর উপর বৃষ্টি হচ্ছে",
+   "answer": "b",
+   "sources": [
+    "সি/ম: ০৩-০৪"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'The fire is out.' বাক্যটির বাংলা অনুবাদ- [সি (গ): ২১-২২]",
+   "a": "আগুন তোমাকে নিবিয়েছে (নয়",
+   "b": "আগুন তোমাকে নিবিয়েছে (নয়",
+   "c": "আগুন তোমাকে নিবিয়ে দেয় না",
+   "d": "আগুন তোমাকে নিবিয়েছে",
+   "answer": "a",
+   "sources": [
+    "সি (গ): ২১-২২"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Don't cry down your enemy.' বাক্যটির সঠিক অনুবাদ কোনটি? [আইসি: ০৪-০৫]",
+   "a": "শত্রুকে অবমূল্যায়ন করো না",
+   "b": "শত্রুকে ভালোবাসো",
+   "c": "শত্রুর সাথে লড়াই করো না",
+   "d": "শত্রুকে ঘৃণা করো না",
+   "answer": "a",
+   "sources": [
+    "আইসি: ০৪-০৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'There is none else like my mother.' এর সঠিক অনুবাদ হন- [চ/র (ই): ০৪-০৫]",
+   "a": "মায়ে চেয়ে সুখে নেই",
+   "b": "মায়ে চেয়ে তুলনা করো না",
+   "c": "মাকে চেয়ে তুলনা করো না",
+   "d": "মায়ের চেয়ে তুলনা করো না",
+   "answer": "d",
+   "sources": [
+    "চ/র (ই): ০৪-০৫"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'I feel like weeping.' বাক্যটির সঠিক অর্থ কী? [চ (S): ০৪-০৫]",
+   "a": "আমার কান্নার মতো লাগছে",
+   "b": "আমার কান্নার মতো লাগছে না",
+   "c": "আমার কান্নার মতো কষ্ট হচ্ছে",
+   "d": "আমার কান্নার মতো কিছু না",
+   "answer": "a",
+   "sources": [
+    "চ (S): ০৪-০৫"
+   ],
+   "confidence": 0.9,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'He left no stone unturned.' বাক্যটির সঠিক অনুবাদ- [উ/চ (ম): ০৩-০৪]",
+   "a": "আমার মাথাটা নয় মাথাটা",
+   "b": "আমার মাথাটা নয় মাথাটা",
+   "c": "আমার মাথাটা নয় মাথাটা",
+   "d": "আমার মাথাটা নয় মাথাটা",
+   "answer": "a",
+   "sources": [
+    "উ/চ (ম): ০৩-০৪"
+   ],
+   "confidence": 0.8,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Blessed by your tongue.' বাক্যটির অনুবাদ- [আবি (র): ০৪-০৫]",
+   "a": "তোমার জিভের গুণগান করছি",
+   "b": "তোমার জিহ্বার সুবাতাস দেখছি",
+   "c": "তোমার কথায় ব্যথা পেলাম",
+   "d": "তোমার জিহ্বায় সুবাতাস দেখছি",
+   "answer": "d",
+   "sources": [
+    "আবি (র): ০৪-০৫"
+   ],
+   "confidence": 0.85,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "A bull in a China shop. বাক্যটির অনুবাদ- [আবি (গ): ০৪-০৫]",
+   "a": "তোমার দিশাচারা কম নাই",
+   "b": "তোমার দিশাচারা কম নাই না",
+   "c": "তোমার দিশাচারা কম নাই না না",
+   "d": "তোমার দিশাচারা কম নাই না না না",
+   "answer": "a",
+   "sources": [
+    "আবি (গ): ০৪-০৫"
+   ],
+   "confidence": 0.8,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'No smoke without fire.' এর যথাথ অনুবাদ- [উবি (গ): ০৬-০৭]",
+   "a": "বিনা আগুন বসতি",
+   "b": "বিনা আগুন বসতি",
+   "c": "বিনা আগুন বসতি",
+   "d": "বিনা আগুন বসতি",
+   "answer": "a",
+   "sources": [
+    "উবি (গ): ০৬-০৭"
+   ],
+   "confidence": 0.8,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'She shed crocodile tears.'- [উবি (গ): ১৭-১৮]",
+   "a": "লোভে পাপ পাপে মৃত্যু",
+   "b": "লোভে পাপ পাপে মৃত্যু",
+   "c": "লোভে পাপ পাপে মৃত্যু",
+   "d": "লোভে পাপ পাপে মৃত্যু",
+   "answer": "a",
+   "sources": [
+    "উবি (গ): ১৭-১৮"
+   ],
+   "confidence": 0.8,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 802,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'Carrying coal to New Castle.' এর সঠিক অনুবাদ- [সাবি (গ): ১৪-১৫]",
+   "a": "যে মাধ্যমে কয়লার জন্য কোকেন",
+   "b": "যে মাধ্যমে কয়লার জন্য কোকেন",
+   "c": "যে মাধ্যমে কয়লার জন্য কোকেন",
+   "d": "যে মাধ্যমে কয়লার জন্য কোকেন",
+   "answer": "a",
+   "sources": [
+    "সাবি (গ): ১৪-১৫"
+   ],
+   "confidence": 0.8,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'কলমটি তার নামির দ্বারা লেখা নয়, উহা ফরাক্কানা' - এই বাক্যটির ইংরেজি নিচের কোন বাক্য প্রকাশ করে? [৪৪তম বিসিএস]",
+   "a": "The pen is not written by him, it's a fountain pen",
+   "b": "The pen is not written with by him, it's a fountain pen",
+   "c": "The pen with which he is writing is not a fountain pen",
+   "d": "The pen he is writing with is not a fountain pen",
+   "answer": "d",
+   "sources": [
+    "৪৪তম বিসিএস"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'গাছটিতে ফুল ধরেছে' - এর সঠিক ইংরেজি অনুবাদ কোনটি? [35th BCS]",
+   "a": "The tree has put forth flowers",
+   "b": "The tree has flowers",
+   "c": "The tree has got flowers",
+   "d": "The flowers have come out in the tree",
+   "answer": "a",
+   "sources": [
+    "35th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "নিচের কোনটিতে সঠিক অনুবাদ নয়? [27th BCS]",
+   "a": "পদ্মা সেতু বাংলাদেশের গৌরব",
+   "b": "আফগানিস্তান সন্ত্রাসের জন্য পরিচিত",
+   "c": "বাংলাদেশ একটি স্বাধীন দেশ",
+   "d": "বাল্যবিবাহ একটি সামাজিক অভিশাপ",
+   "answer": "b",
+   "sources": [
+    "27th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'গরু ঘাস খায়' - এর সঠিক ইংরেজি কোনটি? [45th BCS]",
+   "a": "Cows eat grass",
+   "b": "The cow eats grass",
+   "c": "Cows are eating grass",
+   "d": "Cow eats the grass",
+   "answer": "b",
+   "sources": [
+    "45th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'I'll teach you a lesson.' বাক্যটির সঠিক বাংলা অনুবাদ হলো- [23rd BCS]",
+   "a": "আমি তোমাকে শিক্ষা দেব",
+   "b": "আমি তোমাকে একটি শিক্ষা দেব",
+   "c": "আমি তোমাকে একটি পাঠ দান করব",
+   "d": "আমি তোমাকে উপযুক্ত শিক্ষা দেব",
+   "answer": "d",
+   "sources": [
+    "23rd BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'It is raining cats and dogs' বাক্যটির সঠিক অনুবাদ- [20th BCS]",
+   "a": "রিমঝিম বৃষ্টি হচ্ছে",
+   "b": "মুষলধারে বৃষ্টি হচ্ছে",
+   "c": "কুকুর বিড়াল বৃষ্টি হচ্ছে",
+   "d": "বৃষ্টি থেমে থেমে হচ্ছে",
+   "answer": "b",
+   "sources": [
+    "20th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "নিচের কোনটির অনুবাদ সঠিক নয়? [19th BCS]",
+   "a": "অর্থে অনর্থ ঘটে",
+   "b": "রত্নে রত্নে চেনে",
+   "c": "চরে খায় চরের খাস",
+   "d": "দশের লাঠি একের বোঝা",
+   "answer": "d",
+   "sources": [
+    "19th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "গায়ে মানে না আপনি মেইন - এর ইংরেজি প্রতিশব্দ নিচের কোনটি? [13th BCS]",
+   "a": "A guilty mind is your own accuser",
+   "b": "The rogue is on his own way",
+   "c": "A nod is as good as a wink to a blind horse",
+   "d": "Two of a trade seldom agree",
+   "answer": "a",
+   "sources": [
+    "13th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'হু ইজ দ্যাট ম্যান উইথ সুজান' - এর বাংলা অর্থ কোনটি? [10th BCS]",
+   "a": "সুজানের সাথে ঐ লোকটি কে?",
+   "b": "ঐ লোকটি কে?",
+   "c": "সুজান কি লোকটিকে চেনে?",
+   "d": "সুজানের সাথে কে কথা বলছে?",
+   "answer": "a",
+   "sources": [
+    "10th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "নিচের বাক্যগুলোর মধ্যে কোনটি শুদ্ধ অনুবাদ? [10th BCS]",
+   "a": "He is as good as his word",
+   "b": "He is as good as his promises",
+   "c": "He is as good as his speech",
+   "d": "He is as good as his talk",
+   "answer": "a",
+   "sources": [
+    "10th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "Which of the following is correct translation? [12th BCS]",
+   "a": "বৃক্ষটি সহজে ভাঙে না",
+   "b": "বৃক্ষটি সহজে ভাঙে না",
+   "c": "বৃক্ষটি সহজে ভাঙে না",
+   "d": "বৃক্ষটি সহজে ভাঙে না",
+   "answer": "a",
+   "sources": [
+    "12th BCS"
+   ],
+   "confidence": 0.8,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "সঠিক ইংরেজি অনুবাদ কোনটি? [10th BCS]",
+   "a": "Virtue has its own reward",
+   "b": "Virtue is its own reward",
+   "c": "Virtue brings its own reward",
+   "d": "Virtue gives its own reward",
+   "answer": "b",
+   "sources": [
+    "10th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "Which one is the correct translation of 'লোভে পাপ, পাপে মৃত্যু'? [10th BCS]",
+   "a": "Greed begets sin, sin begets death",
+   "b": "Greed leads to sin, sin leads to death",
+   "c": "Greed brings sin, sin brings death",
+   "d": "Greed is sin, sin is death",
+   "answer": "a",
+   "sources": [
+    "10th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "নিচের কোনটির ইংরেজি অনুবাদ সঠিক নয়? [11th BCS]",
+   "a": "সে সাঁতার কাটতে জানে",
+   "b": "বৃষ্টি থেমে গেছে",
+   "c": "ঘরটি গোল",
+   "d": "লোকটি মরে গেল",
+   "answer": "a",
+   "sources": [
+    "11th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'দুর্দিনের সঞ্চয়' এর ইংরেজি কোনটি? [13th BCS]",
+   "a": "Hard times",
+   "b": "Bad days",
+   "c": "Rainy day",
+   "d": "Dark days",
+   "answer": "c",
+   "sources": [
+    "13th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'সুদিনে সবাই বন্ধু হয়' - এর সঠিক ইংরেজি কোনটি? [14th BCS]",
+   "a": "All are friends in good days",
+   "b": "Fair-weather friends are everywhere",
+   "c": "Prosperity brings many friends",
+   "d": "All men are friends in prosperity",
+   "answer": "c",
+   "sources": [
+    "14th BCS] [18th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'রোদে ঘাম ঝরছে' এর ইংরেজি অনুবাদ কোনটি? [15th BCS]",
+   "a": "The sun is sweating",
+   "b": "It is sweating in the sun",
+   "c": "The sun is hot",
+   "d": "It is sweating",
+   "answer": "b",
+   "sources": [
+    "15th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "একমাত্র জাতীয় পতাকাকে আমরা সম্মান করব - এর ইংরেজি কোনটি? [15th BCS]",
+   "a": "We should respect our national flag only",
+   "b": "We will respect only our national flag",
+   "c": "We must respect only our national flag",
+   "d": "Only our national flag should be respected by us",
+   "answer": "a",
+   "sources": [
+    "15th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 4,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "নিচের বাক্যগুলোর মধ্যে কোনটি শুদ্ধ ইংরেজি অনুবাদ? [16th BCS]",
+   "a": "He caught cold",
+   "b": "He caught a cold",
+   "c": "He caught cold",
+   "d": "He caught cold",
+   "answer": "b",
+   "sources": [
+    "16th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 5,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'মুর্শিদাবাদে silk উৎপন্ন হয়' - এর সঠিক ইংরেজি কোনটি? [17th BCS]",
+   "a": "Silk is produced in Murshidabad",
+   "b": "Silk grows in Murshidabad",
+   "c": "Silk is grown in Murshidabad",
+   "d": "Silk is made in Murshidabad",
+   "answer": "a",
+   "sources": [
+    "17th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 5,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'বৃক্ষটি সহজে ভাঙে না' এর ইংরেজি অনুবাদ কোনটি? [18th BCS]",
+   "a": "A tree is not easily broken",
+   "b": "Trees are not easily broken",
+   "c": "A tree does not break easily",
+   "d": "Trees do not break easily",
+   "answer": "c",
+   "sources": [
+    "18th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 5,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'সুশাসন' এর ইংরেজি প্রতিশব্দ কী? [25th BCS]",
+   "a": "Good Governance",
+   "b": "Proper Administration",
+   "c": "Right Government",
+   "d": "Fair Rule",
+   "answer": "a",
+   "sources": [
+    "25th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  },
+  {
+   "page": 5,
+   "chapter": "বাংলা ব্যাকরণ",
+   "topic": "অনুবাদ",
+   "question": "'He has a good command over Bengali' - এর সঠিক বাংলা অনুবাদ কোনটি? [35th BCS]",
+   "a": "বাংলায় তার ভালো দখল আছে",
+   "b": "তিনি বাংলায় ভালো জানেন",
+   "c": "তিনি বাংলা ভালো বলতে পারেন",
+   "d": "বাংলায় তিনি ভালো পন্ডিত",
+   "answer": "a",
+   "sources": [
+    "35th BCS"
+   ],
+   "confidence": 0.95,
+   "explanation": null,
+   "subtopic": null
+  }
+ ]
+}

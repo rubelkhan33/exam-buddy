@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large source PDFs and their page chunks
+JobPrep-AI-Data/01_raw_pdfs/*.pdf
+JobPrep-AI-Data/01_raw_pdfs/*_chunks/
+
+# Dependencies and build output
+node_modules/
+.next/
+out/
+
+# OCR run logs and replaced chunk outputs
+JobPrep-AI-Data/02_extracted_text/**/_*.log
+JobPrep-AI-Data/02_extracted_text/**/_replaced/
+
+# Misc
+*.tsbuildinfo
+.vercel
+.DS_Store

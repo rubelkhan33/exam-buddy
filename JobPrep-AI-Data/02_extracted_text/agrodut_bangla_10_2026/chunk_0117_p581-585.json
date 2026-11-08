@@ -1,0 +1,11 @@
+{
+ "book_id": "agrodut_bangla_10_2026",
+ "from": 581,
+ "to": 585,
+ "model": "gemini-3.6-flash",
+ "finishReason": "STOP",
+ "headings": [
+  "বিপরীত শব্দ"
+ ],
+ "questions": []
+}

@@ -1,0 +1,12 @@
+{
+ "book_id": "agrodut_bangla_10_2026",
+ "from": 711,
+ "to": 715,
+ "model": "gemini-3.6-flash",
+ "finishReason": "STOP",
+ "headings": [
+  "বাক্য সংকোচন / সংক্ষেপণ",
+  "বিবিধ বাক্য সংকোচন / সংক্ষেপণ"
+ ],
+ "questions": []
+}

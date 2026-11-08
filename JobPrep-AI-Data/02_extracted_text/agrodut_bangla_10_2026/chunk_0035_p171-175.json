@@ -1,0 +1,14 @@
+{
+ "book_id": "agrodut_bangla_10_2026",
+ "from": 171,
+ "to": 175,
+ "model": "gemini-3.5-flash-lite",
+ "finishReason": "STOP",
+ "headings": [
+  "হরপ্রসাদ শাস্ত্রী",
+  "স্বর্ণকুমারী দেবী",
+  "কায়কোবাদ",
+  "নজিবর রহমান সাহিত্যরত্ন"
+ ],
+ "questions": []
+}
