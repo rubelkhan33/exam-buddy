@@ -35,6 +35,24 @@ export interface BookInfo {
   subject: string;
   file: string;
   demo?: boolean;
+  /** Reading notes file (study text, tables, written Q&A), if the book has one */
+  notes?: string;
+}
+
+export interface NoteBlock {
+  page: number;
+  heading: string;
+  md: string;
+}
+
+export interface NoteTopic {
+  topic: string;
+  blocks: NoteBlock[];
+}
+
+export interface NoteChapter {
+  chapter: string;
+  topics: NoteTopic[];
 }
 
 export type AttemptResult = "c" | "w" | "s"; // correct, wrong, skipped

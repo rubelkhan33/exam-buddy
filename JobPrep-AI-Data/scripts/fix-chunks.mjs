@@ -44,6 +44,8 @@ for (const chunk of listChunks(bookId)) {
   if (rotated) reasons.push(`${rotated} sideways page(s)`);
   if (count !== null && count < MIN) reasons.push(`only ${count} questions`);
   if (!reasons.length) continue;
+  // Each chunk is retried once; a second empty result is accepted (prose or table pages).
+  if (!rotated && fs.existsSync(path.join(replaced, `${chunk.name}.json`))) continue;
   queue.push(`${chunk.name}: ${reasons.join(", ")}`);
   if (args.dry) continue;
   if (rotated) fs.writeFileSync(chunk.file, await doc.save());

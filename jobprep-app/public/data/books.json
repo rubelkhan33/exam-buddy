@@ -3,6 +3,13 @@
     "id": "agrodut_bangla_10_2026",
     "title": "অগ্রদূত বাংলা (১০ম সংস্করণ)",
     "subject": "বাংলা",
-    "file": "agrodut_bangla_10_2026.json"
+    "file": "agrodut_bangla_10_2026.json",
+    "notes": "agrodut_bangla_10_2026.notes.json"
+  },
+  {
+    "id": "shikkhok_nibondhon_19_analysis",
+    "title": "শিক্ষক নিবন্ধন Analysis (১৯তম)",
+    "subject": "শিক্ষক নিবন্ধন",
+    "file": "shikkhok_nibondhon_19_analysis.json"
   }
 ]

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { BookInfo, Question } from "./types";
+import type { BookInfo, NoteChapter, Question } from "./types";
 
 const questionCache = new Map<string, Promise<Question[]>>();
 let booksPromise: Promise<BookInfo[]> | null = null;
@@ -33,6 +33,32 @@ export interface BookData {
 }
 
 /** Loads the book list and the questions of the chosen (or first) book. */
+const notesCache = new Map<string, Promise<NoteChapter[]>>();
+
+/** Loads a book's reading notes (empty when the book has none). */
+export function useNotes(book: BookInfo | null): { loading: boolean; chapters: NoteChapter[] } {
+  const [state, setState] = useState<{ id: string | null; chapters: NoteChapter[] }>({ id: null, chapters: [] });
+  const id = book?.id ?? null;
+  useEffect(() => {
+    if (!book) return;
+    let alive = true;
+    let p = notesCache.get(book.id);
+    if (!p) {
+      p = book.notes
+        ? fetch(`/data/${book.notes}`)
+            .then((r) => (r.ok ? r.json() : []))
+            .catch(() => [])
+        : Promise.resolve([]);
+      notesCache.set(book.id, p);
+    }
+    p.then((chapters) => alive && setState({ id: book.id, chapters }));
+    return () => {
+      alive = false;
+    };
+  }, [book]);
+  return { loading: !!book && state.id !== id, chapters: state.id === id ? state.chapters : [] };
+}
+
 export function useBookData(bookId: string | null): BookData {
   const [data, setData] = useState<BookData>({
     loading: true,

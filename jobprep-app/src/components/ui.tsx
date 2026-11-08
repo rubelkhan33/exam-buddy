@@ -28,7 +28,8 @@ export function LoadingScreen({ text = "লোড হচ্ছে…" }: { text?
 
 const NAV = [
   { href: "/", label: "হোম", icon: "home" },
-  { href: "/topics", label: "পরীক্ষা", icon: "book" },
+  { href: "/topics", label: "পরীক্ষা", icon: "check" },
+  { href: "/read", label: "পড়ুন", icon: "book" },
   { href: "/review", label: "রিভিউ", icon: "clock" },
   { href: "/analytics", label: "অ্যানালিটিক্স", icon: "chart" },
 ] as const;
@@ -52,7 +53,7 @@ export function Screen({
       {nav && (
         <nav
           aria-label="প্রধান মেনু"
-          className="no-print sticky bottom-0 z-10 grid grid-cols-4 border-t border-line bg-nav px-2 pt-2 pb-5"
+          className="no-print sticky bottom-0 z-10 grid grid-cols-5 border-t border-line bg-nav px-2 pt-2 pb-5"
         >
           {NAV.map((n) => {
             const active = n.href === "/" ? path === "/" : path.startsWith(n.href);

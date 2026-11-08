@@ -20,3 +20,8 @@ JobPrep-AI-Data/02_extracted_text/**/_replaced/
 *.tsbuildinfo
 .vercel
 .DS_Store
+JobPrep-AI-Data/02_extracted_text/**/_v1_no_numbers/
+
+# Daily pipeline logs
+JobPrep-AI-Data/daily-run.log
+JobPrep-AI-Data/daily-run.out.txt

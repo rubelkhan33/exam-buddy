@@ -1,0 +1,9 @@
+{
+ "book_id": "agrodut_bangla_10_2026",
+ "from": 346,
+ "to": 350,
+ "model": "gemini-3.5-flash-lite",
+ "finishReason": "STOP",
+ "headings": [],
+ "notes": []
+}

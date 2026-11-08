@@ -41,6 +41,61 @@ body {
   outline-offset: 2px;
 }
 
+/* Reading notes (Markdown from the book) */
+.notes-md {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--color-ink-2);
+  overflow-wrap: anywhere;
+}
+.notes-md > * + * {
+  margin-top: 0.6em;
+}
+.notes-md h1,
+.notes-md h2,
+.notes-md h3,
+.notes-md h4 {
+  color: var(--color-ink);
+  font-weight: 600;
+  font-size: 16px;
+}
+.notes-md strong {
+  color: var(--color-ink);
+}
+.notes-md ul,
+.notes-md ol {
+  padding-left: 1.3em;
+}
+.notes-md ul {
+  list-style: disc;
+}
+.notes-md ol {
+  list-style: decimal;
+}
+.notes-md table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.notes-md th,
+.notes-md td {
+  border: 1px solid var(--color-line);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.notes-md th {
+  background: var(--color-surface-2);
+  color: var(--color-ink);
+}
+.notes-md blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: 10px;
+  color: var(--color-muted);
+}
+
 @media print {
   html,
   body {

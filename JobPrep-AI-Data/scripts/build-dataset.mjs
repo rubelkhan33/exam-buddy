@@ -66,7 +66,7 @@ if (!files.length) {
 
 /** Box titles and section names that are not real topics; such questions inherit the previous real topic. */
 const NOT_A_TOPIC =
-  /বিগত\s*পরীক্ষা|প্রশ্নসমূহ|অনুশীলনী|গুরুত্বপূর্ণ\s*প্রশ্ন|^অন্যান্য$|^বাংলা\s*(ব্যাকরণ|সাহিত্য|ভাষা)|^বিসিএস\s*প্রশ্ন|প্রিলিমিনারি/u;
+  /বিগত\s*পরীক্ষা|প্রশ্নসমূহ|অনুশীলনী|গুরুত্বপূর্ণ\s*প্রশ্ন|^অন্যান্য$|^বাংলা\s*(ব্যাকরণ|সাহিত্য|ভাষা)|^বিসিএস\s*প্রশ্ন|প্রিলিমিনারি|প্রশ্ন\s*সমাধান|সাজেশন|suggestion/iu;
 
 /**
  * Book sections by PDF page, e.g. --sections "1:বাংলা সাহিত্য,321:বাংলা ব্যাকরণ,816:বিসিএস প্রিলিমিনারি প্রশ্ন".
@@ -74,21 +74,49 @@ const NOT_A_TOPIC =
  * "বিসিএস", every question that names its exam (e.g. "৪০তম বিসিএস") gets that exam as its topic and source,
  * so a student can sit a whole past paper.
  */
+// A name starting with "*" (or containing "বিসিএস") marks a section of solved past papers.
 const SECTIONS = String(args.sections ?? "")
   .split(",")
-  .map((s) => s.split(":"))
+  .map((s) => {
+    const i = s.indexOf(":");
+    return i < 0 ? [] : [s.slice(0, i), s.slice(i + 1)];
+  })
   .filter(([p, name]) => p && name)
-  .map(([p, name]) => ({ from: Number(toLatinDigits(p)), name: norm(name) }))
+  .map(([p, name]) => {
+    const paper = name.trim().startsWith("*") || name.includes("বিসিএস");
+    return { from: Number(toLatinDigits(p)), name: norm(name.replace(/^\s*\*/, "")), paper };
+  })
   .sort((a, b) => a.from - b.from);
-const sectionAt = (page) => SECTIONS.filter((s) => s.from <= page).pop()?.name ?? null;
+const sectionInfo = (page) => SECTIONS.filter((s) => s.from <= page).pop() ?? null;
+const sectionAt = (page) => sectionInfo(page)?.name ?? null;
+const isPaperSection = (name) => !!SECTIONS.find((s) => s.name === name)?.paper;
 const EXAM_NAME = /([০-৯0-9]+)\s*তম\s*বিসিএস(\s*\([^)]*\))?/u;
-const examName = (...texts) => {
+// Teacher registration (NTRCA) papers: "১৮তম কলেজ/সমপর্যায় নিবন্ধন প্রিলিমিনারি টেস্ট-২০২৪"
+// "১৮তম কলেজ/সমপর্যায় …", "১৮তম শিক্ষক নিবন্ধন (কলেজ পর্যায়)-২০২৪", "১৮তম শিক্ষক নিবন্ধন"
+const NTRCA_NAME = /([০-৯0-9]+)\s*(তম|ম|ষ্ঠ|র্থ|য়)\s*(?:(কলেজ|স্কুল\s*-?\s*২|স্কুল)|(?:শিক্ষক\s*)?নিবন্ধন)/u;
+const LEVEL = /(কলেজ|স্কুল\s*-?\s*২|স্কুল)/u;
+const YEAR = /((?:19|20|১৯|২০)[০-৯0-9]{2})/u;
+/** Exam name from heading texts; `sectionName` supplies the level (কলেজ/স্কুল) when the heading omits it. */
+const examNameIn = (sectionName, ...texts) => {
   for (const t of texts) {
-    const m = norm(t).match(EXAM_NAME);
+    const s = norm(t);
+    const m = s.match(EXAM_NAME);
     if (m) return `${m[1]}তম বিসিএস${m[2] ? " " + m[2].trim() : ""}`;
+    const n = s.match(NTRCA_NAME);
+    if (n) {
+      const lv = (n[3] ?? s.match(LEVEL)?.[1] ?? String(sectionName ?? "").match(LEVEL)?.[1] ?? "").replace(/\s+/g, "");
+      const level = lv.replace(/-?২$/, "-২");
+      const y = s.match(YEAR);
+      return `${n[1]}${n[2]} ${level ? level + " পর্যায়" : "নিবন্ধন"}${y ? ` (${y[1]})` : ""}`;
+    }
+    if (/বিশেষ/.test(s) && /নিবন্ধন/.test(s)) {
+      const y = s.match(YEAR);
+      return `বিশেষ নিবন্ধন পরীক্ষা${y ? ` (${y[1]})` : ""}`;
+    }
   }
   return null;
 };
+const examName = (...texts) => examNameIn(null, ...texts);
 /** An exam tag at the end of the question text, e.g. "… শব্দ? [পূবালী ব্যাংক: ১৯]" or "(… সুপারভাইজার: ১৯)". */
 const TRAILING_TAG =
   /\s*[[(]([^[\]()]*(?:বিসিএস|ব্যাংক|পিএসসি|নিবন্ধন|পরিচালক|কর্মকর্তা|অফিসার|সহকারী|অডিটর|নিয়োগ|[:：]\s*[০-৯0-9]{2})[^[\]()]*)[\])]\s*$/u;
@@ -103,6 +131,58 @@ function splitTrailingTags(question) {
   return { question: q, tags };
 }
 
+/**
+ * --chapters "কলেজ=*কলেজ পর্যায় — বিগত প্রশ্ন;ইংরেজি|English=ইংরেজি;বাংলা=বাংলা"
+ * Maps the section title the model read (page header / chapter) to a fixed chapter name; first match wins,
+ * "*" marks a past-paper chapter. Used instead of --sections when page numbers are unreliable.
+ */
+const CHAPTER_RULES = String(args.chapters ?? "")
+  .split(";")
+  .map((r) => r.split("="))
+  .filter(([k, v]) => k && v)
+  .map(([k, v]) => ({
+    re: new RegExp(k.trim(), "iu"),
+    name: norm(v.replace(/^\s*\*/, "")),
+    paper: v.trim().startsWith("*"),
+  }));
+for (const r of CHAPTER_RULES) if (r.paper && !SECTIONS.some((s) => s.name === r.name)) SECTIONS.push({ from: Infinity, name: r.name, paper: true });
+let lastRuleChapter = null;
+const chapterByRule = (text) => {
+  const hit = CHAPTER_RULES.find((r) => r.re.test(norm(text)));
+  if (hit) lastRuleChapter = hit.name;
+  return lastRuleChapter;
+};
+
+/**
+ * --papers "কলেজ পর্যায় — বিগত প্রশ্ন=১৮তম কলেজ পর্যায় (২০২৪)|১৭তম কলেজ পর্যায় (২০২২)|…;স্কুল …=…"
+ * The papers of each past-paper chapter in book order. A question number dropping back (e.g. 100 → 1)
+ * starts the next paper; a printed paper heading at the start of a paper re-syncs the position.
+ */
+const PAPERS = new Map(
+  String(args.papers ?? "")
+    .split(";")
+    .map((p) => p.split("="))
+    .filter(([k, v]) => k && v)
+    .map(([k, v]) => [norm(k), v.split("|").map(norm).filter(Boolean)]),
+);
+const paperState = new Map(); // chapter -> { idx, lastNum }
+const baseName = (s) => s.split(" (")[0];
+function paperFor(chapter, r0, labelled) {
+  const list = PAPERS.get(chapter);
+  if (!list) return null;
+  const st = paperState.get(chapter) ?? { idx: 0, lastNum: null };
+  const num = Number.isFinite(Number(r0.number)) && r0.number !== null ? Number(r0.number) : null;
+  const labelIdx = labelled
+    ? list.findIndex((n) => n === labelled || (baseName(n) === baseName(labelled) && !labelled.includes("(")))
+    : -1;
+  if (num !== null && st.lastNum !== null && num + 20 < st.lastNum) st.idx = Math.min(st.idx + 1, list.length - 1);
+  // Trust a printed heading only where a paper starts (or when the book has no question numbers).
+  if (labelIdx >= 0 && (num === null || num <= 3)) st.idx = labelIdx;
+  if (num !== null) st.lastNum = num;
+  paperState.set(chapter, st);
+  return list[st.idx];
+}
+
 const merged = new Map();
 const review = [];
 let raw = 0;
@@ -114,13 +194,25 @@ for (const f of files) {
     // Move exam tags out of the question text, and fix box-title topics.
     const split = splitTrailingTags(r0.question);
     const r = { ...r0, question: split.question, sources: [...(r0.sources ?? []), ...split.tags] };
-    let section = SECTIONS.length ? sectionAt(chunk.from) : null;
+    // The question's own page decides its section (falls back to the chunk start if the page looks wrong).
+    const qPage = Number(r0.page) >= chunk.from && Number(r0.page) <= chunk.to ? Number(r0.page) : chunk.from;
+    let section = CHAPTER_RULES.length
+      ? chapterByRule(r0.chapter) ?? subject
+      : SECTIONS.length
+        ? sectionAt(qPage)
+        : null;
     let topic = cleanTopic(r.topic);
-    const exam = section?.includes("বিসিএস") ? examName(r0.topic, r0.chapter) : null;
-    if (section?.includes("বিসিএস") && !exam) {
+    const paper = isPaperSection(section);
+    let exam = paper ? examNameIn(section, r0.topic, r0.chapter) : null;
+    if (paper && PAPERS.has(section)) exam = paperFor(section, r0, exam);
+    if (paper && !exam && lastTopic.chapter === section && lastTopic.topic && (!topic || NOT_A_TOPIC.test(topic) || !section.includes("বিসিএস"))) {
+      // Same past paper continuing on the next page without repeating its heading.
+      exam = lastTopic.topic;
+    }
+    if (paper && !exam && section.includes("বিসিএস")) {
       // Past-paper pages without a readable exam name: file under the matching subject section instead.
       const subj = /সাহিত্য/.test(r0.chapter ?? "") ? SECTIONS.find((s) => /সাহিত্য/.test(s.name)) : null;
-      section = subj?.name ?? SECTIONS.filter((s) => !s.name.includes("বিসিএস")).pop()?.name ?? section;
+      section = subj?.name ?? SECTIONS.filter((s) => !s.paper).pop()?.name ?? section;
     }
     const chapter = section ?? cleanChapter(r.chapter);
     if (exam) {
@@ -204,7 +296,7 @@ for (const f of files) {
   const rename = new Map();
   for (const [k, c] of counts) {
     const [chapter, topic] = k.split("|");
-    if (topic.includes("বিসিএস")) continue; // past papers are distinct on purpose
+    if (topic.includes("বিসিএস") || isPaperSection(chapter)) continue; // past papers are distinct on purpose
     let best = null;
     for (const [k2, c2] of counts) {
       const [ch2, t2] = k2.split("|");

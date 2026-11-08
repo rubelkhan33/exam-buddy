@@ -1,0 +1,12 @@
+{
+ "book_id": "agrodut_bangla_10_2026",
+ "from": 226,
+ "to": 230,
+ "model": "gemini-3.5-flash-lite",
+ "finishReason": "STOP",
+ "headings": [
+  "বাংলা সাহিত্য",
+  "কাজী নজরুল ইসলাম"
+ ],
+ "notes": []
+}

@@ -10,6 +10,7 @@
     "test": "node --no-warnings tests/exam.test.mts"
   },
   "dependencies": {
+    "marked": "15.0.12",
     "next": "16.4.5",
     "react": "19.3.0",
     "react-dom": "19.3.0"
