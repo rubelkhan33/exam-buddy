@@ -195,6 +195,18 @@ async function callGemini(chunk, prevHeadings, extraHint = "") {
       return { data: JSON.parse(out), usage: json.usageMetadata, finishReason: cand.finishReason, model };
     }
     const errText = await res.text();
+    if (res.status === 403 && /free tier is not available|set up billing/i.test(errText)) {
+      // This key's project has no free tier (needs billing): skip it like a used-up key.
+      console.warn(`  Key #${keyIdx + 1} has no free tier (billing not set up). Skipping it.`);
+      if (keyIdx < KEYS.length - 1) {
+        keyIdx++;
+        modelIdx = 0;
+        attempt = 0;
+        continue;
+      }
+      quotaExhausted = true;
+      throw new Error("DAILY_QUOTA: no key with free quota left");
+    }
     if (res.status === 429 && /per day|PerDay|free_tier_requests|exceeded your current quota/i.test(errText)) {
       // Daily quota used up: next model, then next key, or stop the whole run.
       if (model !== MODELS[modelIdx]) {
