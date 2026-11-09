@@ -54,6 +54,8 @@ Extract EVERY multiple-choice question on these pages (numbered ১., ২., … 
 - confidence: 0 to 1, how sure you are that the text, options, answer and tags were read correctly.
 
 Rules: copy text faithfully, never invent or "fix" questions, options, answers or sources. Use proper Bangla Unicode (no Bijoy/ANSI garbage).
+If any part of a question, option or answer mark is too blurry to read with certainty, DO NOT GUESS: copy what you can read, put "[অস্পষ্ট]" where the text is unreadable, and set confidence to 0.3 or lower.
+Write math in plain Unicode (√, ∛, ², ³, ⁻¹, ×, ÷, π, θ, °, fractions as a/b), never LaTeX (no \\sqrt, ^{...}, \\frac).
 Do not skip any numbered question; count them per box and make sure none is missing.
 Skip anything that is not an MCQ (প্র./উ. written Q&A, ads, index pages). If a question continues onto the next attached page, join it.
 Also return "headings": the chapter/topic headings you saw, in order, so the next pages can continue them.`;
